@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>50</y>
+      <w>170</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Question
+--
+questionId:int
+statement:string
+time:Date
+--
+postQuestion():bool
+getQuestion():string
+updateQuestion():bool
+deleteQuestion():bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>260</y>
+      <w>170</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>User
+--
+userId:int
+userName:string
+phoneNumber:string
+country:string
+profession:string
+--
+login():boolean
+register():boolean
+update():boolean
+delete():boolean
+getUserDetails():boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>460</y>
+      <w>200</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>Answer
+--
+answerId:int
+statement:string
+time:Date
+--
+postAnswer):bool
+getAnswer():string
+updateAnswer):bool
+deleteAnswer():bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>230</y>
+      <w>120</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+posts</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>360</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+posts</panel_attributes>
+    <additional_attributes>100.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>550</x>
+      <y>230</y>
+      <w>60</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+has</panel_attributes>
+    <additional_attributes>10.0;230.0;20.0;10.0</additional_attributes>
+  </element>
+</diagram>

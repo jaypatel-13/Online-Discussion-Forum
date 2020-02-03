@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//src/org/datacontract/schemas/_2004/_07/WcfServiceLibrary1/AnswerClass.java=UTF-8
+encoding//src/org/datacontract/schemas/_2004/_07/WcfServiceLibrary1/ProfileClass.java=UTF-8
+encoding//src/org/datacontract/schemas/_2004/_07/WcfServiceLibrary1/QuestionClass.java=UTF-8
+encoding//src/org/tempuri/AnswerCrud.java=UTF-8
+encoding//src/org/tempuri/AnswerCrudLocator.java=UTF-8
+encoding//src/org/tempuri/BasicHttpBinding_IAnswerCrudStub.java=UTF-8
+encoding//src/org/tempuri/BasicHttpBinding_IQuestionCrudStub.java=UTF-8
+encoding//src/org/tempuri/BasicHttpBinding_IUserCrudStub.java=UTF-8
+encoding//src/org/tempuri/IAnswerCrud.java=UTF-8
+encoding//src/org/tempuri/IQuestionCrud.java=UTF-8
+encoding//src/org/tempuri/IUserCrud.java=UTF-8
+encoding//src/org/tempuri/QuestionCrud.java=UTF-8
+encoding//src/org/tempuri/QuestionCrudLocator.java=UTF-8
+encoding//src/org/tempuri/UserCrud.java=UTF-8
+encoding//src/org/tempuri/UserCrudLocator.java=UTF-8
